@@ -53,6 +53,8 @@ function Cart(props) {
             type="button"
             variant="contained"
             color="primary"
+            component={Link}
+            to="/checkout"
           >
             Checkout
           </Button>
